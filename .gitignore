@@ -1,0 +1,15 @@
+.sass-cache
+1.htaccess
+.sass-cache
+.htaccess
+node_modules/
+*.scssc
+.DS_Store
+*.sql
+/.idea/
+install.config
+bitrix/
+upload/
+config.codekit
+layout/js/min/plugins-ck.js
+*.log
