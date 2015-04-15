@@ -6,7 +6,7 @@ $APPLICATION->SetPageProperty('DESCRIPTION', "Интерактивный тес�
 
 ?> 
 <div class="test_container">
-	<div class="col-md-8 col-md-offset-2">
+	<div class="col-md-6 col-md-offset-3">
 		<div id="test-woman">
 			<div id="wrapper" class="default">
     <div class="test_frame">

@@ -130,9 +130,9 @@
      </div>
     <?if(!$doctors&&!defined('ERROR_404')):?>
       <? if(!$APPLICATION->GetDirProperty("show_flag")): ?>
-        <a href="<?=(!strstr($APPLICATION->GetCurDir(),'/ru/') ?"/test/man_kz/":"/test/man/")?>" class="flag test"><img src="/layout/images/test.png"></a>
+        <a href="<?=(!strstr($APPLICATION->GetCurDir(),'/ru/') ?"/test/man_kz/":"/ru/test/man/")?>" class="flag test"><img src="/layout/images/test.png"></a>
       <? else: ?>
-        <a href="<?=(!strstr($APPLICATION->GetCurDir(),'/ru/') ?"/test/man_kz/":"/test/man/")?>" class="flag test enter"><img src="/layout/images/flag-test.png"></a>
+        <a href="<?=(!strstr($APPLICATION->GetCurDir(),'/ru/') ?"/test/man_kz/":"/ru/test/man/")?>" class="flag test enter"><img src="/layout/images/flag-test.png"></a>
       <? endif;
     endif;
      ?>
