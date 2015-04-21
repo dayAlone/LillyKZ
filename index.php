@@ -22,7 +22,7 @@
 <div class="video">
 	<div class="video__frame">
 		<div class="embed-responsive embed-responsive-16by9">
-			<iframe src="//player.vimeo.com/video/113089811?title=0&amp;byline=0&amp;portrait=0&amp;api=1&amp;color=d11414&amp;autoplay=<? 
+			<iframe src="//player.vimeo.com/video/113089811?title=0&amp;byline=0&amp;loop=1&amp;portrait=0&amp;api=1&amp;color=d11414&amp;autoplay=<? 
 			global $USER;
 			if($USER->isAdmin()) echo 0;
 			else echo 1;
