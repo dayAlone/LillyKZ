@@ -75,7 +75,6 @@
                    <?=$APPLICATION->AddBufferContent("mobile_title");?>
                  </div>
                  <a href="#" class="trigger"></a>
-                 <a class="enter" data-toggle="modal" data-target="#doctor" href="#doctor">Войти</a>
               </div>
               <? if(!$APPLICATION->GetDirProperty("hide_nav")):?>
               <div class="col-md-8">
