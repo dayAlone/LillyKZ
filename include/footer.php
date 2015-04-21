@@ -69,8 +69,10 @@
                       
                       for($i=0;$i<strlen($count);$i++)
                         echo '<span class="n">'.$count[$i].'</span>';
+                      if(strlen($count)>0):
                      ?>
-                     <span class="t"><?=NumberEnd($count, array('человек','человека','человека'))?> <br>посетили этот сайт</span>
+                     <span class="t"><?=NumberEnd($count, array('человек','человека','человека'))?> <br>Адам сайтқа кірді</span>
+                     <?endif;?>
                   </nobr>
                </div><?/*
                <div class="search">
