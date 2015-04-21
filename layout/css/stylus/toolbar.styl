@@ -153,7 +153,6 @@
 			a.small
 				@media (max-width: 770px)
 					text-decoration: underline
-					text-transform: lowercase
 				&:hover
 					color: red
 				&.active
@@ -207,6 +206,9 @@
 		width: 100%
 
 .lang
+	display none
+	@media (min-width: 770px)
+		display block
 	float right
 	margin-top 10px
 	&__item

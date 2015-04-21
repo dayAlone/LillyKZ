@@ -2608,7 +2608,6 @@ a:focus {
 @media (max-width: 770px) {
   #toolbar .nav li a.small {
     text-decoration: underline;
-    text-transform: lowercase;
   }
 }
 #toolbar .nav li a.small:hover {
@@ -2681,8 +2680,14 @@ a:focus {
   }
 }
 .lang {
+  display: none;
   float: right;
   margin-top: 10px;
+}
+@media (min-width: 770px) {
+  .lang {
+    display: block;
+  }
 }
 .lang__item {
   text-transform: uppercase;
