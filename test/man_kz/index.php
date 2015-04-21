@@ -16,7 +16,7 @@ $APPLICATION->SetPageProperty('DESCRIPTION', "Протестировать св�
         <div class="test_content man">
             <div id="pretest_block">
                 <div class="questions" id="q_00">
-                    <h3>ЗІҢІЗДІҢ ОСЫ КЕЗДЕГІ ЖЫНЫСТЫҚ ӨМІРІҢІЗГЕ ҚАНШАЛЫҚТЫ ҚАНАҒАТТАНАСЫЗ?  </h3>
+                    <h3>Өзіңіздін ОСЫ КЕЗДЕГІ ЖЫНЫСТЫҚ ӨМІРІҢІЗГЕ ҚАНШАЛЫҚТЫ ҚАНАҒАТТАНАСЫЗ?  </h3>
                     <ol>
                         <li><input type="radio" name="q_00" id="q_00_1" value="" /><label for="q_00_1">Мүлдем қанағаттанбаймын  </label></li>
                         <li><input type="radio" name="q_00" id="q_00_2" value="" /><label for="q_00_2">Негізінен қанағаттанбаймын  </label></li>
@@ -105,10 +105,7 @@ $APPLICATION->SetPageProperty('DESCRIPTION', "Протестировать св�
     
 
     </div>
-    
-    <div class="locator-frame">
-        <a href="#locator" class="doctor" data-toggle="modal" data-target="#locator">дәрігерден білу керек!</a>    
-    </div>
+
     
     
     <script src="/test_man/js/script.js" type="text/javascript"></script>
