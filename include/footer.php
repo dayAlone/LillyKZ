@@ -67,11 +67,12 @@
                          $obCache->EndDataCache(array('count'=>$count));
                       }
                       
+                      if(intval($count)>0):
                       for($i=0;$i<strlen($count);$i++)
                         echo '<span class="n">'.$count[$i].'</span>';
-                      if(strlen($count)>0):
+                      
                      ?>
-                     <span class="t"><?=NumberEnd($count, array('человек','человека','человека'))?> <br>Адам сайтқа кірді</span>
+                     <span class="t">адам сайтқа кірді</span>
                      <?endif;?>
                   </nobr>
                </div><?/*
