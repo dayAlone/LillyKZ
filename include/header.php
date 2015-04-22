@@ -119,10 +119,12 @@
               </div>
               <? endif;?>
               <div class="col-md-2">
+              <?/*
                 <div class="lang">
                   <a href="<?=str_replace("/ru/","/",$APPLICATION->GetCurDir())?>" class="lang__item <?=(strstr($APPLICATION->GetCurDir(),'/ru/') ?"":"lang__item--active")?>">KZ</a>
                   <a href="http://ochenprosto.ru" class="lang__item <?=(!strstr($APPLICATION->GetCurDir(),'/ru/') ?"":"lang__item--active")?>">RU</a>
                 </div>
+                */?>
               </div>
            </div>
         </div>
