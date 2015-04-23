@@ -302,7 +302,9 @@ p, ul, ol, dl {
 #help.state-help #help-content {
   display: block;
 }
-
+#help.state-error #error-content {
+  color: red;
+}
 #buttonbar-message {
   position: absolute;
   left: 44px;

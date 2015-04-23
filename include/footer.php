@@ -66,7 +66,6 @@
                          $count = include($_SERVER['DOCUMENT_ROOT'].'/include/counter.php'); 
                          $obCache->EndDataCache(array('count'=>$count));
                       }
-                      
                       if(intval($count)>0):
                       for($i=0;$i<strlen($count);$i++)
                         echo '<span class="n">'.$count[$i].'</span>';
