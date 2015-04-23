@@ -73,7 +73,7 @@
 );
 } else {
 $APPLICATION->IncludeComponent("bitrix:news.detail", ".default", array(
-	"IBLOCK_TYPE" => "content_kz",
+	"IBLOCK_TYPE" => "content",
 	"IBLOCK_ID" => 6,
 	"ELEMENT_ID" => "",
 	"ELEMENT_CODE" => $_REQUEST["ELEMENT_CODE"],
