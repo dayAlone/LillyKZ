@@ -74,7 +74,7 @@
 } else {
 $APPLICATION->IncludeComponent("bitrix:news.detail", ".default", array(
 	"IBLOCK_TYPE" => "content",
-	"IBLOCK_ID" => "",
+	"IBLOCK_ID" => 6,
 	"ELEMENT_ID" => "",
 	"ELEMENT_CODE" => $_REQUEST["ELEMENT_CODE"],
 	"CHECK_DATES" => "Y",

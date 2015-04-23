@@ -115,9 +115,6 @@ $APPLICATION->SetPageProperty('DESCRIPTION', "Интерактивный тес�
         
     </div>
     </div>
-    <div class="locator-frame">
-        <a href="#locator" class="doctor" data-toggle="modal" data-target="#locator">дәрігерден білу керек!</a>
-    </div>
         <p><br><br><small>URO-PM-210-2015-03-17</small></p>
 		</div>
 	</div>
