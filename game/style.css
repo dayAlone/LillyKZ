@@ -54,28 +54,22 @@ table {
  */
 @font-face {
   font-family: 'PFDinTextCondProMediumRegular';
-  src: url('fonts/ufonts.com_pfdintextcondpro-medium-webfont.eot');
-  src: url('fonts/ufonts.com_pfdintextcondpro-medium-webfont.eot?#iefix') format('embedded-opentype'),
-       url('fonts/ufonts.com_pfdintextcondpro-medium-webfont.woff') format('woff'),
-       url('fonts/ufonts.com_pfdintextcondpro-medium-webfont.ttf') format('truetype');
+  src: url('/layout/fonts/DINPro-Medium.otf');
+  src: url('/layout/fonts/DINPro-Medium.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'PFDinTextCondProRegular';
-  src: url('fonts/ufonts.com_pfdintextcondpro-regular-webfont.eot');
-  src: url('fonts/ufonts.com_pfdintextcondpro-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('fonts/ufonts.com_pfdintextcondpro-regular-webfont.woff') format('woff'),
-       url('fonts/ufonts.com_pfdintextcondpro-regular-webfont.ttf') format('truetype');
+  src: url('/layout/fonts/DINPro.otf');
+  src: url('/layout/fonts/DINPro.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'PFDinTextCondProXBlackRegular';
-  src: url('fonts/ufonts.com_pfdintextcondpro-xblack-webfont.eot');
-  src: url('fonts/ufonts.com_pfdintextcondpro-xblack-webfont.eot?#iefix') format('embedded-opentype'),
-       url('fonts/ufonts.com_pfdintextcondpro-xblack-webfont.woff') format('woff'),
-       url('fonts/ufonts.com_pfdintextcondpro-xblack-webfont.ttf') format('truetype');
+  src: url('/layout/fonts/DINPro-Bold.otf');
+  src: url('/layout/fonts/DINPro-Bold.otf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
