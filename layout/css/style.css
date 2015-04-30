@@ -1553,7 +1553,7 @@ a:focus {
     margin-top: -26px;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 660px) {
   #woman .content h1 {
     margin-top: -45px;
   }
