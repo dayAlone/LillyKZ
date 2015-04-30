@@ -865,6 +865,11 @@ a span:hover,
     display: none;
   }
 }
+@media (max-width: 770px) {
+  .side {
+    display: none;
+  }
+}
 .search {
   min-height: 400px;
 }
