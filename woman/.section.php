@@ -1,3 +1,3 @@
 <?
-$sSectionName="Для женщин";
+$sSectionName="Әйелдер үшін";
 ?>
