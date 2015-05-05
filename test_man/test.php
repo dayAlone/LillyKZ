@@ -8,13 +8,13 @@ if(strtolower($_SERVER['REQUEST_METHOD']) == 'post'){
 		$vars['session'] = session_id();
 		
 		if($vars['balls'] >= 1 && $vars['balls'] <= 7){
-			$vars['pow'] = 'тяжелая';
+			$vars['pow'] = 'ауыр';
 		} else if($vars['balls'] >= 8 && $vars['balls'] <= 11){
-			$vars['pow'] = 'умеренная';
+			$vars['pow'] = 'орташа';
 		} else if($vars['balls'] >= 12 && $vars['balls'] <= 16){
-			$vars['pow'] = 'умеренно-легкая';
+			$vars['pow'] = 'орташа-жеңіл';
 		} else if($vars['balls'] >= 17 && $vars['balls'] <= 21){
-			$vars['pow'] = 'легкая';
+			$vars['pow'] = 'жеңіл';
 		} else if($vars['balls'] >= 22 && $vars['balls'] <= 25){
 			$vars['pow'] = 'норма';
 		} else {
@@ -22,9 +22,9 @@ if(strtolower($_SERVER['REQUEST_METHOD']) == 'post'){
 		}
 		
 		if($vars['balls'] >= 1 && $vars['balls'] <= 21){
-			$vars['pow'] = 'Проконсультируйтесь с врачом о состоянии Вашего сексуального здоровья';
+			$vars['pow'] = 'Өзіңіздін сексуалды денсаулығыныз туралы дәрігермен кеңесініз. ';
 		} else {
-			$vars['pow'] = 'Cкорее всего, все в норме';
+			$vars['pow'] = 'Шамасы, барлығы нормада шығар';
 		}
 		$template = file_get_contents('result.html');
 		foreach($vars as $key=>&$val){
