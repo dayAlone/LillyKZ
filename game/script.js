@@ -316,7 +316,7 @@ Game.prototype = {
       $('#scene-1').stop().insertAfter('#step-' + this.state.current).fadeOut(1500);
       $('#step-' + this.state.current).animate({backgroundPosition : '(0px 0px)', opacity:1}, 800);
 
-      $('#question-title').text('Шаг ' +  this.state.current);
+      $('#question-title').text('Қадам ' +  this.state.current);
       $('#question-content').text($('#step-' + this.state.current + ' .step-question').text());
 
       return this;
