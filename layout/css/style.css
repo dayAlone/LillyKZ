@@ -321,24 +321,16 @@ a span:hover,
     display: none;
   }
 }
-#test-woman #q_3 h3,
-#test-man #q_3 h3,
-#test-woman #q_5 h3,
-#test-man #q_5 h3 {
-  background: url("/layout/images/test_sm.png") top right no-repeat;
-}
-#test-woman #q_3 .counter,
-#test-man #q_3 .counter,
-#test-woman #q_5 .counter,
-#test-man #q_5 .counter {
-  height: 46px;
-}
 #test-woman #q_7 h3,
-#test-man #q_7 h3 {
+#test-man #q_7 h3,
+#test-woman #q_2 h3,
+#test-man #q_2 h3 {
   background: url("/layout/images/test_bg.png") top right no-repeat;
 }
 #test-woman #q_7 .counter,
-#test-man #q_7 .counter {
+#test-man #q_7 .counter,
+#test-woman #q_2 .counter,
+#test-man #q_2 .counter {
   height: 82px;
 }
 #test-woman h3,
