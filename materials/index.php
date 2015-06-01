@@ -1,6 +1,6 @@
 <?
 	require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-	$APPLICATION->SetTitle("Еркектердің әңгімесі :: Lilly Answers That Matter");
+	$APPLICATION->SetTitle("Еркектердің әңгімесі :: Lilly");
 
 	if($_REQUEST['ELEMENT_CODE']) {
 		CModule::IncludeModule("iblock");

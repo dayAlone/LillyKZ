@@ -1,6 +1,6 @@
 <?
 	require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-	$APPLICATION->SetTitle("Lilly Answers That Matter");
+	$APPLICATION->SetTitle("Lilly");
 	$APPLICATION->SetPageProperty('KEYWORDS', "конфиденциальность данных. личная информация, технологии лилли");
     $APPLICATION->SetPageProperty('DESCRIPTION', "Положение о конфиденциальности: конфиденциальность данных  в Эли Лилли энд Компани, персональная информация,  контактная информация");
 ?>

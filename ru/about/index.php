@@ -1,6 +1,6 @@
 <?
 	require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-	$APPLICATION->SetTitle("Lilly Answers That Matter");
+	$APPLICATION->SetTitle("Lilly");
 	$APPLICATION->SetPageProperty('KEYWORDS', "Eli Lilly, Lilly, гистологика, Лилли, борьба с туберкулезом, множественная лекарственная устойчивость, подготовка врачей-эндокринологов, евразийская федерация онкологии, ");
     $APPLICATION->SetPageProperty('DESCRIPTION', "О компании Eli Lilly: история, научные исследования, обучающие программы и семинары ");
 ?>
