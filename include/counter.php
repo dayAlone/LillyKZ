@@ -38,7 +38,7 @@ $client->setAccessType('offline');
 $service = new Google_Service_Analytics( $client );
 try {
    $results = $service->data_ga->get(
-    'ga:59248007',
+    'ga:64421789',
     '2013-01-01',
     date('Y-m-d'),
     'ga:pageviews',
